@@ -83,6 +83,6 @@ class ConverterTest {
     fun ConvertKmhToMs_Do_UnitTest() {
         val convertTo: ConvertTo = ConvertKmhToMs()
         val actual = convertTo.Do(1f)
-        Assert.assertThat(actual, CoreMatchers.`is`(0.277778f))
+        Assert.assertThat(actual, CoreMatchers.`is`(0.2777778f))
     }
 }
